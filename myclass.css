@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  .navbar-brand {
+  font-size: 32px;
+  margin-left: 30px;
+  font-weight: 600;
+  }
+  
+  .navi{
+  margin-right: 40px;
+  font-size: 18px;
+  color: black;
+  }
+  
+  .navi1{
+  padding-top: 5px;
+  }
+  
+  .navi2{
+    margin-right: 60px;
+  }
+  
+  .profile-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  }
+  
+  
+  .sect2{
+    width: 78%;
+    margin: auto;
+    padding-top: 100px;
+  }
+  
+  .sect9{
+    width: 86%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .img1{
+    height:100px;
+    width: 100px;
+    border-radius:50px;
+    position: center;
+  }
+  
+  .card1{
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+  
+  .card1:hover{
+    color: red !important;
+  }
+  
+  
+  
+  .class{
+    height: 60px;
+    width: 160px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 20px 0 rgba(5, 5, 5, 0.5);
+  }
+  
+  .class:hover{
+    color: #fff;
+    box-shadow: 0 0 20px 0 rgba(216, 21, 21, 0.2);
+    background-color: red;
+  }
+  
+  .img1{
+    height:200px;
+    width:200px;
+    border-radius:200px;
+    margin:auto;
+  } 
+  
+  .h_page{
+    width: 1400px;
+    margin-left: 55px;
+  }
+  
+  .live1{
+    background-color: rgb(205, 204, 204);
+    height: 50px;
+    width: 330px;
+    padding-top: 8px;
+    font-size: 20px;
+    border: 5px;
+    border-color: black;
+    border-radius: 14px;
+    margin-top: 100px;
+    margin-bottom: 140px;
+    box-shadow: 0 0 20px 0 rgba(25, 25, 25, 0.2);
+  }
+  
+  .btn5{
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 0 3px 0 rgba(5, 5, 5, 0.5);
+    margin-top: 6px;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(77, 141, 76);
+  }
+  
+  .btn5:hover{
+    color: #fff;
+    box-shadow: 0 0 3px 0 rgba(216, 21, 21, 0.2);
+    background-color: red;
+  }
+  
+  .card2{
+    height: 350px !important;
+  }
+  
+  .card3{
+    height: 300px !important;
+  }
+  
+  
+  
+  .bt-col{  
+    border-radius: 25px;
+    height: 35px;
+    width: 35px;
+    margin-left: 228px;
+    padding-left: 5px;
+    padding-top: 18px;
+    border: none;
+    color: rgb(241, 24, 24);
+  }
+
+
+  .span_col{
+    background: #61e9b3;
+  }
+  
+  
+  .card1{
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+  
+  .card1:hover{
+    color: red !important;
+  }
+
+  .nav_col{
+    box-shadow: 0 0 9px 0 rgba(25, 25, 25, 0.2);
+}

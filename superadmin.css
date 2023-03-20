@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.form-label {
+    font-weight: bold;
+}
+.form-control:focus {
+    border-color: #6c757d;
+    box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, 0.25);
+}
+.btn-primary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.btn-primary:hover {
+    background-color: #495057;
+    border-color: #495057;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    margin-left: 30px;
+    font-weight: 600;
+    }
+    
+.navi{
+margin-right: 40px;
+font-size: 18px;
+color: black;
+}
+
+.navi1{
+padding-top: 5px;
+}
+
+.navi2{
+  margin-right: 60px;
+}
+
+.profile-img {
+height: 40px;
+width: 40px;
+border-radius: 50%;
+}
+
+.sect9{
+    width: 86%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.control{
+    width: 85%;
+    margin: auto;
+}
+
+
+.span_col{
+    background: #61e9b3;
+  }
+  
+  
+  .card1{
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+  
+  .card1:hover{
+    color: red !important;
+  }
+
+.btn_up{
+    background-color: #14f5aa;
+    color: black;
+    
+}
+
+.btn_up:hover{
+    background-color: #f74526;
+    box-shadow: 0 0 20px 0 rgba(25, 25, 25, 0.2);
+  }
+
+.nav_col{
+    box-shadow: 0 0 9px 0 rgba(25, 25, 25, 0.2);
+}

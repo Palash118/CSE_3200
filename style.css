@@ -1,0 +1,193 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+  
+  form {
+    padding: 15px 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  form label {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  
+  a {
+    color: #0000ff;
+    text-decoration: none;
+  }
+  
+ 
+  
+  #wrapper {
+    margin: 40px auto;
+    padding-bottom: 25px;
+    background: #fcfcfc;
+    width: 800px;
+    height: 600px;
+    max-width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 8px 0 rgba(5, 5, 5, 0.5);
+  }
+  
+  #loginform {
+    padding-top: 18px;
+    text-align: center;
+    margin: 68px auto;
+    padding-bottom: 25px;
+    background: #fcfcfc;
+    width: 600px;
+    max-width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 8px 0 rgba(5, 5, 5, 0.5);
+  }
+  
+  #loginform p {
+    padding: 15px 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  #chatbox {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    padding: 10px;
+    background: #fff;
+    height: 440px;
+    width: 750px;
+    border: 1px solid #a7a7a7;
+    overflow: auto;
+    border-radius: 4px;
+    
+  }
+  
+  #usermsg {
+    flex: 1;
+    border-radius: 4px;
+    
+  }
+  
+  #name {
+    border-radius: 4px;
+   
+    padding: 2px 8px;
+  }
+  
+  #submitmsg,
+  #enter{
+    background: #0091ff;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(5, 5, 5, 0.5);
+  }
+  
+  .error {
+    color: #ff0000;
+  }
+  
+  #menu {
+    padding: 15px 25px;
+    display: flex;
+  }
+  
+  #menu p.welcome {
+    flex: 1;
+  }
+  
+  a#exit {
+    color: white;
+    background: #c62828;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .msgln {
+    margin: 0 0 5px 0;
+  }
+  
+  .msgln span.left-info {
+    color: orangered;
+  }
+  
+  .msgln span.chat-time {
+    color: #666;
+    font-size: 60%;
+    vertical-align: super;
+  }
+  
+  .msgln b.user-name, .msgln b.user-name-left {
+    font-weight: bold;
+    background: #546e7a;
+    color: white;
+    padding: 2px 4px;
+    font-size: 90%;
+    border-radius: 4px;
+    margin: 0 5px 0 0;
+  }
+  
+  .msgln b.user-name-left {
+    background: orangered;
+  }
+
+  .navbar-brand {
+    font-size: 32px;
+    margin-left: 30px;
+    font-weight: 600;
+    }
+    
+    .navi{
+    margin-right: 40px;
+    font-size: 18px;
+    color: black;
+    }
+    
+    .navi1{
+    padding-top: 5px;
+    }
+    
+    .navi2{
+      margin-right: 60px;
+    }
+    
+    .profile-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    }
+
+    .sect9{
+      width: 86%;
+      margin: auto;
+      text-align: center;
+      padding-top: 100px;
+  }
+
+
+  .span_col{
+    background: #61e9b3;
+  }
+  
+  
+  .card1{
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+  
+  .card1:hover{
+    color: red !important;
+  }
+
+  .nav_col{
+    box-shadow: 0 0 9px 0 rgba(25, 25, 25, 0.2);
+}

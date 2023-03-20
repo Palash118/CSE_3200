@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.head{
+  background-color: #18264f;
+  box-shadow: 0 0 20px 0 rgba(7, 12, 71, 1);
+}
+
+.navbar-brand {
+  font-size: 32px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+
+.navi{
+  margin-right: 40px;
+  font-size: 18px;
+  color: black;
+}
+
+.navi1{
+  padding-top: 5px;
+}
+
+.navi2{
+    margin-right: 60px;
+}
+
+.profile-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+
+.slide-show{
+    height:400px;
+    width: 100%;
+}
+
+.slide-show img{
+    height: 500px;
+    width: 100%;
+}
+
+.full{
+    margin-left: 875px;
+}
+
+
+.sect3{
+    width: 83%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sect4{
+    width: 83%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.sect5{
+    width: 83%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.sect6{
+    width: 83%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#myBtn{
+    background-color: #90130a;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    position: fixed;
+    top: 480px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#myBtn:hover{
+    color: #fff;
+    box-shadow: 0 0 20px 0 rgba(216, 21, 21, 0.2);
+    background-color: red;
+}
+
+.myBtn1{
+    border: none;
+    background: transparent;
+}
+
+
+/*------- The Modal ---------*/
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+
+  /*------ Modal Content --------*/
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /*------ Add Animation --------*/
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /*------ The Close Button --------*/
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .comment{
+    width: 60%;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.feed{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.com{
+    font-size: 16px;
+    padding: 5px;
+}
+
+.class{
+  margin-left: 600px;
+  height: 60px;
+  width: 160px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 0 20px 0 rgba(5, 5, 5, 0.5);
+}
+
+.change{
+  padding-top: 50px;
+}
+
+.card_top{
+  background: #61e9b3;
+  margin-bottom: 20px;
+}
+
+.size1{
+  font-size: 180px;
+  padding-left: 100px;
+  padding-bottom: 40px;
+}
+
+.img1{
+  height:200px;
+  width:200px;
+  border-radius:200px;
+  margin:auto;
+} 
+
+.span_col{
+  background: #61e9b3;
+}
+
+
+.card1{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.card1:hover{
+  color: red !important;
+}
+
+.nav_col{
+  box-shadow: 0 0 9px 0 rgba(25, 25, 25, 0.2);
+}
+

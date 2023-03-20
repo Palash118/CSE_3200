@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.head{
+  background-color: #18264f;
+  box-shadow: 0 0 20px 0 rgba(7, 12, 71, 1);
+}
+
+.navbar-brand {
+  font-size: 32px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+
+.navi{
+  margin-right: 40px;
+  font-size: 18px;
+  color: black;
+}
+
+.navi1{
+  padding-top: 5px;
+}
+
+.navi2{
+    margin-right: 60px;
+}
+
+.profile-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+
+
+.hero h1 {
+  color:black;
+  font-size: 40px;
+}
+
+.hero p {
+  color: black;
+  font-size: 1.5rem;
+  max-width: 800px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero .btn {
+  margin-top: 30px;
+  padding: 10px 25px;
+  font-size: 1.5rem;
+}
+.sect3{
+  width: 86%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.pdf1 {
+  width: 100%;
+  height: 200px; /* adjust the height as needed */
+  background-color: #f0f0f0; /* add a background color for visibility */
+}
+
+.input-sm {
+  height: 60px; /* adjust the height to your liking */
+  font-size: 23px; /* adjust the font size to your liking */
+}
+
+.btn-lg {
+  height: 60px; /* adjust the height to your liking */
+  font-size: 16px; /* adjust the font size to your liking */
+  margin-bottom: 30px;
+}
+
+/* vertically align the input and button */
+form {
+  display: flex;
+  align-items: center;
+}
+
+/* add some margin between the input and button */
+.form-control {
+  margin-right: 2px;
+}
+
+.card2{
+  height: 337px !important;
+  width: 245px !important;
+}
+
+.card3{
+  width: 244px !important;
+  height: 295px !important;
+}
+
+.btn5{
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 0 3px 0 rgba(5, 5, 5, 0.5);
+  margin-top: 6px;
+  font-size: 18px;
+  color: #fff;
+  background-color: rgb(77, 141, 76);
+}
+
+.btn5:hover{
+  color: #fff;
+  box-shadow: 0 0 3px 0 rgba(216, 21, 21, 0.2);
+  background-color: red;
+}
+
+.featured{
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.span_col{
+  background: #61e9b3;
+}
+
+
+.card1{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.card1:hover{
+  color: red !important;
+}
+
+.bt-col{
+  color: rgb(252, 0, 0);
+  border-radius: 50px;
+}
+
+.icon1{
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.bt-col:hover{
+  color: white;
+  background-color: rgb(204, 67, 67);
+}
+
+.nav_col{
+  box-shadow: 0 0 9px 0 rgba(25, 25, 25, 0.2);
+}

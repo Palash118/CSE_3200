@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.first{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(image/books2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.main-div{
+    height: 100vh;
+}
+
+.card{
+    border: none;
+    background: transparent;
+    color: whitesmoke;
+}
+
+.sign{
+    width: 100%;
+    height: 50px;
+    background: rgb(193, 255, 108);
+    border: none;
+    border-radius: 30px;
+}
+
+.sign:hover{
+    background: rgb(250, 53, 26);
+}
+
+.sign1{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
+
+.sign1:hover{
+    background: black;
+    color: white;
+}
+
+.sign1 a{
+    text-decoration:none;
+    color:black;
+}
+
+.sign1:hover a {
+    color: white;
+  }
+  
+
+.input-field{
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+}
+
+.register{
+    text-decoration: none;
+    color: white;
+}
+
+.register:hover{
+    color: rgb(193, 255, 108);
+}
+

@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.head{
+  background-color: #18264f;
+  box-shadow: 0 0 20px 0 rgba(7, 12, 71, 1);
+}
+
+.navbar-brand {
+  font-size: 32px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+
+.navi{
+  margin-right: 40px;
+  font-size: 18px;
+  color: black;
+}
+
+.navi1{
+  padding-top: 5px;
+}
+
+.navi2{
+    margin-right: 60px;
+}
+
+.profile-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.sect9{
+  width: 86%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+
+.span_col{
+  background: #61e9b3;
+}
+
+
+.card1{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.card1:hover{
+  color: red !important;
+}
+
+.nav_col{
+  box-shadow: 0 0 9px 0 rgba(25, 25, 25, 0.2);
+}
+
+
